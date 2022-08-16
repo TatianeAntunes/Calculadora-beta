@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: linear-gradient(45deg,black, crimson);
+    height: 100vh;
+    color: white; /*cor do texto*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;/*alinha os texto no centro*/
+}
+
+.calculadora{
+    position: absolute;    
+    background-color: rgba(0,0,0,0.7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:15px; /*usado p arredondar as bordas*/
+    padding: 15px;/*a distância entre nossos elementos e a borda*/
+
+}
+.calculadora:hover{
+    background-color: rgb(246, 18, 18);
+}
+
+.botao{
+    width:50px; /*largura*/
+    height: 50px; /*altura*/
+    font-size: 25px;
+    cursor: pointer;/*usado para mudar o cursor, a seta se transforma em uma mãozinha*/
+    background-color: rgb(31,31,31);
+    border: none;/*tirar a borda do botão*/
+    color: #fff;/* Cor da fonte*/
+    margin: 3px;
+}
+
+/*:HOVER quando passar com mouse por cima do botao, ele muda de cor*/         
+.botao:hover{
+    background-color: black;
+} 
+
+/*Estilizar o meu ID*/
+#resultado{
+    width: 214px;
+    height: 30px;
+    background-color: white;
+    margin: 5px;
+    color: black;
+    text-align: right;/* o texto vai p a direita da tela*/
+    padding: 5px;
+    
+}
